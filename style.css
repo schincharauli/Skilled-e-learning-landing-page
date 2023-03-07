@@ -86,6 +86,7 @@ html{
     margin: 1em;
     display: flex;
     justify-content: center;
+    
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
@@ -230,7 +231,9 @@ html{
         display: flex;
         justify-content: center;
         align-items: center;
-        justify-content: space-between;
+        /* justify-content: space-between; */
+        margin-left: 0;
+        
         flex-direction: row;
         flex-wrap:wrap;
     }
@@ -245,6 +248,7 @@ html{
 
     .card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
         justify-content: space-around;
+        margin-right: 30px;
 
     }
 }
@@ -295,10 +299,11 @@ html{
         margin-top: 15em;
         display: flex;
         justify-content: center;
-        align-items: center;
-        justify-content: space-between;
         flex-direction: row;
         flex-wrap:wrap;
+        align-items: center;
+        justify-content: space-around;
+       
     }
 
     .card-1{
